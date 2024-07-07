@@ -279,3 +279,18 @@ margin-top:10px;
     height: 100%
 }
 
+/* footer style section */
+
+.footer-container{
+    width: 1600px;
+    height: 609px;
+    border: 2px solid red;
+    margin:0 auto;
+    background: rgb(7, 2, 17);
+}
+
+.contact{
+    display: flex;
+    color: white;
+}
+
