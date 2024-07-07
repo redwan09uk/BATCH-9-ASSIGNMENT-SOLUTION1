@@ -161,7 +161,7 @@ margin-right: 400px;
 .holiday-section-container{
     width: 1320px;
     height: 986.07px;
-    border:2px solid red;
+    /* border:2px solid red;  same it is used for own understanding to identify side*/
     margin:0 auto;
     position: relative;
 }
@@ -229,4 +229,53 @@ text-align: center;
     margin-bottom:150px; 
 }
 
+/* Portfolio style start */
+
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    /* border: 2px solid red; it is used for own understanding */
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-text-content h5{
+color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.portfolio-text-content h2{
+color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top:10px;
+}
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:10px;
+}
+
+.portfolio-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item{
+    width: 424px;
+    height: 450px;
+    
+}
+
+.item img{
+    width: 100%;
+    height: 100%
+}
 
